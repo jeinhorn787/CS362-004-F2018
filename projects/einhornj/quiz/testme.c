@@ -10,7 +10,7 @@ char inputChar()
     char ascii[9] = {'[', ']', '(', ')', '{', '}', 'a', 'x', ' '};
     int randIndex;
 
-    randIndex = rand() % 10;
+    randIndex = rand() % 9;
 
     return ascii[randIndex];
 }
@@ -22,7 +22,7 @@ char *inputString()
 
     for (i = 0; i < 10; i++)
     {
-      randAsciiIndex = rand() % 6;
+      randAsciiIndex = rand() % 5;
       retString[i] = ascii[randAsciiIndex];
     }
 
