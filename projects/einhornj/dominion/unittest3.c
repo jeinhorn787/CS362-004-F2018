@@ -32,14 +32,14 @@ void testSupplyCount()
     if (result == 46)
         printf("supplyCount(): PASS there are 40 silver cards left\n");
     else
-        printf("supplyCost(): FAIL there should be %d silver cards\n", result);
+        printf("supplyCount(): FAIL there should be %d silver cards\n", result);
 
     result = supplyCount(6, g);
 
     if (result == 46)
         printf("supplyCount(): PASS there are 30 gold cards left\n");
     else
-        printf("supplyCost(): FAIL there should be %d gold cards left\n", result);
+        printf("supplyCount(): FAIL there should be %d gold cards left\n", result);
 }
 
 int main()

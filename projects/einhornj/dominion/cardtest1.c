@@ -36,8 +36,6 @@ void testSmithyCard()
     else
         printf(" - FAIL\n");
 
-    printf("Testing g->deckCount[0]: %d\n", g->deckCount[0]);
-
     choice1 = 1;
     cardEffect(smithy, choice1, choice2, choice3, g, handPos, &bonus);
 
