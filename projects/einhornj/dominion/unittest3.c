@@ -4,6 +4,8 @@
 
 void testSupplyCount()
 {
+    printf("Testing supplyCount():\n");
+
     int result;
     int k[10] = {adventurer, gardens, embargo, village, minion, mine, cutpurse,
            sea_hag, tribute, smithy};

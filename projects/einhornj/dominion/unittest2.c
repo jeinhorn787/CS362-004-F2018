@@ -4,6 +4,8 @@
 
 void testWhoseTurn()
 {
+    printf("Testing whoseTurn():\n");
+
     int k[10] = {adventurer, gardens, embargo, village, minion, mine, cutpurse,
            sea_hag, tribute, smithy};
     struct gameState *g;
