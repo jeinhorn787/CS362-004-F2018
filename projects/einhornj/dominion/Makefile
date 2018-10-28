@@ -29,7 +29,7 @@ runtests: testDrawCard
 	gcov dominion.c >> unittestresult.out
 	cat dominion.c.gcov >> unittestresult.out
 
-funcTests: unittest1.c unittest2.c unittest3.c unittest4.c cardtest1.c cardtest2.c cardtest3.c cardtest4.c dominion.o rngs.o
+unittestresults: unittest1.c unittest2.c unittest3.c unittest4.c cardtest1.c cardtest2.c cardtest3.c cardtest4.c dominion.o rngs.o
 	echo "Results for Dominion unit tests:" > unittestresults.out
 
 	echo  "unittest1.c:" >> unittestresults.out
@@ -75,7 +75,7 @@ funcTests: unittest1.c unittest2.c unittest3.c unittest4.c cardtest1.c cardtest2
 player: player.c interface.o
 	gcc -o player player.c -g  dominion.o rngs.o interface.o $(CFLAGS)
 
-all: playdom player funcTests
+all: playdom player unittestresults
 
 clean:
 	rm -f *.o playdom.exe playdom player player.exe  *.gcov *.gcda *.gcno *.so *.out testDrawCard testDrawCard.exe
