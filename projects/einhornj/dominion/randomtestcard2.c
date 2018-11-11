@@ -17,7 +17,7 @@ int cardExists(int card, int k[], int size)
     return 0;
 }
 
-void randomTestAdventurer()
+void randomTestSmithy()
 {
     int iterations = 1;
 
@@ -25,20 +25,20 @@ void randomTestAdventurer()
     {
         printf("iteration #%d\n", iterations);
         
-        int choice1 = 1;
+        int choice1 = 0;
         int choice2 = 0;
         int choice3 = 0;
-        int handPos = 0;
         int k[10];
         int bonus = 0;
         struct gameState *g;
-        int i, j, size = 0, victoryCountAfter, victoryCountBefore, kingdomCountAfter, kingdomCountBefore;
+        int i, j, size = 0;
+        int victoryCountBefore, kingdomCountBefore, victoryCountAfter, kingdomCountAfter;
 
         g = newGame();
 
         int numPlayers = (rand() % 3) + 2;
 
-        k[0] = adventurer;
+        k[0] = smithy;
         size++;
 
         for (i = 1; i < 10; i++)
@@ -55,6 +55,10 @@ void randomTestAdventurer()
         }
 
         initializeGame(numPlayers, k, 10, g);
+
+        victoryCountBefore = supplyCount(estate, g) + supplyCount(duchy, g) + supplyCount(province, g);
+        kingdomCountBefore = supplyCount(adventurer, g) + supplyCount(council_room, g) + supplyCount(feast, g) + supplyCount(gardens, g) + supplyCount(mine, g) + supplyCount(remodel, g) + supplyCount(smithy, g) + supplyCount(village, g);
+
 
         for (i = 0; i < numPlayers; i++)
         {
@@ -80,22 +84,34 @@ void randomTestAdventurer()
         for (i = 0; i < 5; i++)
             drawCard(g->whoseTurn, g);
 
-        victoryCountBefore = supplyCount(estate, g) + supplyCount(duchy, g) + supplyCount(province, g);
-        kingdomCountBefore = supplyCount(adventurer, g) + supplyCount(council_room, g) + supplyCount(feast, g) + supplyCount(gardens, g) + supplyCount(mine, g) + supplyCount(remodel, g) + supplyCount(smithy, g) + supplyCount(village, g);
+        int handPos = rand() % (g->handCount[g->whoseTurn] + 1);
 
-
-        printf("Number of cards in hand before adventurer play: %d, expected 5", numHandCards(g));
+        printf("Number of cards in player 1 hand before Smithy: %d, expected: 5", numHandCards(g));
 
         if (numHandCards(g) == 5)
             printf(" - PASS\n");
         else
             printf(" - FAIL\n");
 
-        cardEffect(adventurer, choice1, choice2, choice3, g, handPos, &bonus);
+        cardEffect(smithy, choice1, choice2, choice3, g, handPos, &bonus);
 
-        printf("Numder of cards in hand after adventurer play: %d, expected 6", numHandCards(g));
+        printf("Number of cards in player 1 hand after Smithy: %d, expected: 7", numHandCards(g));
 
-        if (numHandCards(g) == 6)
+        if (numHandCards(g) == 7)
+            printf(" - PASS\n");
+        else
+            printf(" - FAIL\n");
+
+        printf("Number of smithy cards after play: %d, expected 9", supplyCount(smithy, g));
+
+        if (supplyCount(smithy, g) == 9)
+            printf(" - PASS\n");
+        else
+            printf(" - FAIL\n");
+
+        printf("Number of cards in player 1 pile: %d, expected 2", g->deckCount[0]);
+
+        if (g->deckCount[0] == 2)
             printf(" - PASS\n");
         else
             printf(" - FAIL\n");
@@ -113,7 +129,7 @@ void randomTestAdventurer()
 
         printf("Number of Kingdom cards left: %d, expected %d", kingdomCountAfter, kingdomCountBefore);
 
-        if (kingdomCountAfter == kingdomCountBefore)
+        if (kingdomCountBefore == kingdomCountAfter)
             printf(" - PASS\n");
         else
             printf(" - FAIL\n");
@@ -136,6 +152,6 @@ void randomTestAdventurer()
 int main()
 {
     srand(time(NULL));
-    randomTestAdventurer();
+    randomTestSmithy();
     return 0;
 }

@@ -17,7 +17,7 @@ int cardExists(int card, int k[], int size)
     return 0;
 }
 
-void randomTestAdventurer()
+void randomTestEmbargo()
 {
     int iterations = 1;
 
@@ -25,20 +25,20 @@ void randomTestAdventurer()
     {
         printf("iteration #%d\n", iterations);
         
-        int choice1 = 1;
+        int choice1 = rand() % (treasure_map + 1);
         int choice2 = 0;
         int choice3 = 0;
         int handPos = 0;
         int k[10];
         int bonus = 0;
         struct gameState *g;
-        int i, j, size = 0, victoryCountAfter, victoryCountBefore, kingdomCountAfter, kingdomCountBefore;
+        int i, j, size = 0;
 
         g = newGame();
 
         int numPlayers = (rand() % 3) + 2;
 
-        k[0] = adventurer;
+        k[0] = embargo;
         size++;
 
         for (i = 1; i < 10; i++)
@@ -80,40 +80,35 @@ void randomTestAdventurer()
         for (i = 0; i < 5; i++)
             drawCard(g->whoseTurn, g);
 
-        victoryCountBefore = supplyCount(estate, g) + supplyCount(duchy, g) + supplyCount(province, g);
-        kingdomCountBefore = supplyCount(adventurer, g) + supplyCount(council_room, g) + supplyCount(feast, g) + supplyCount(gardens, g) + supplyCount(mine, g) + supplyCount(remodel, g) + supplyCount(smithy, g) + supplyCount(village, g);
+        int correctCoins = g->coins + 2;
+        int tokenCount = g->embargoTokens[choice1] + 1;
 
-
-        printf("Number of cards in hand before adventurer play: %d, expected 5", numHandCards(g));
+        printf("Number of cards in player 1 hand before Embargo: %d, expected: 5", numHandCards(g));
 
         if (numHandCards(g) == 5)
             printf(" - PASS\n");
         else
             printf(" - FAIL\n");
 
-        cardEffect(adventurer, choice1, choice2, choice3, g, handPos, &bonus);
+        cardEffect(embargo, choice1, choice2, choice3, g, handPos, &bonus);
 
-        printf("Numder of cards in hand after adventurer play: %d, expected 6", numHandCards(g));
+        printf("Number of cards in player 1 hand after Embargo: %d, expected: 4", numHandCards(g));
 
-        if (numHandCards(g) == 6)
+        if (numHandCards(g) == 4)
             printf(" - PASS\n");
         else
             printf(" - FAIL\n");
 
-        victoryCountAfter = supplyCount(estate, g) + supplyCount(duchy, g) + supplyCount(province, g);
+        printf("Number of coins after embargo play: %d, expected %d", g->coins, correctCoins);
 
-        printf("Number of Victory cards left: %d, expected %d", victoryCountAfter, victoryCountBefore);
-
-        if (victoryCountAfter == victoryCountBefore)
+        if (g->coins == correctCoins)
             printf(" - PASS\n");
         else
             printf(" - FAIL\n");
 
-        kingdomCountAfter = supplyCount(adventurer, g) + supplyCount(council_room, g) + supplyCount(feast, g) + supplyCount(gardens, g) + supplyCount(mine, g) + supplyCount(remodel, g) + supplyCount(smithy, g) + supplyCount(village, g);
+        printf("Number of embargo tokens after play: %d, expected %d", g->embargoTokens[choice1], tokenCount);
 
-        printf("Number of Kingdom cards left: %d, expected %d", kingdomCountAfter, kingdomCountBefore);
-
-        if (kingdomCountAfter == kingdomCountBefore)
+        if (g->embargoTokens[choice1] == tokenCount)
             printf(" - PASS\n");
         else
             printf(" - FAIL\n");
@@ -136,6 +131,6 @@ void randomTestAdventurer()
 int main()
 {
     srand(time(NULL));
-    randomTestAdventurer();
+    randomTestEmbargo();
     return 0;
 }

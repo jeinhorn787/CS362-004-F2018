@@ -1,0 +1,357 @@
+RANDOM EMBARGO TEST:
+iteration #1
+Number of cards in player 1 hand before Embargo: 5, expected: 5 - PASS
+Number of cards in player 1 hand after Embargo: 5, expected: 4 - FAIL
+Number of coins after embargo play: 204, expected 6 - FAIL
+Number of embargo tokens after play: 0, expected 1 - FAIL
+Number of cards in player 2 hand: 5, expected: 5 - PASS
+
+iteration #2
+Number of cards in player 1 hand before Embargo: 5, expected: 5 - PASS
+Number of cards in player 1 hand after Embargo: 5, expected: 4 - FAIL
+Number of coins after embargo play: 204, expected 6 - FAIL
+Number of embargo tokens after play: 0, expected 1 - FAIL
+Number of cards in player 2 hand: 5, expected: 5 - PASS
+
+iteration #3
+Number of cards in player 1 hand before Embargo: 5, expected: 5 - PASS
+Number of cards in player 1 hand after Embargo: 4, expected: 4 - PASS
+Number of coins after embargo play: 204, expected 6 - FAIL
+Number of embargo tokens after play: 1, expected 1 - PASS
+Number of cards in player 2 hand: 5, expected: 5 - PASS
+
+iteration #4
+Number of cards in player 1 hand before Embargo: 5, expected: 5 - PASS
+Number of cards in player 1 hand after Embargo: 5, expected: 4 - FAIL
+Number of coins after embargo play: 204, expected 6 - FAIL
+Number of embargo tokens after play: 0, expected 1 - FAIL
+Number of cards in player 2 hand: 5, expected: 5 - PASS
+
+iteration #5
+Number of cards in player 1 hand before Embargo: 5, expected: 5 - PASS
+Number of cards in player 1 hand after Embargo: 4, expected: 4 - PASS
+Number of coins after embargo play: 204, expected 6 - FAIL
+Number of embargo tokens after play: 1, expected 1 - PASS
+Number of cards in player 2 hand: 5, expected: 5 - PASS
+
+iteration #6
+Number of cards in player 1 hand before Embargo: 5, expected: 5 - PASS
+Number of cards in player 1 hand after Embargo: 4, expected: 4 - PASS
+Number of coins after embargo play: 204, expected 6 - FAIL
+Number of embargo tokens after play: 1, expected 1 - PASS
+Number of cards in player 2 hand: 5, expected: 5 - PASS
+
+iteration #7
+Number of cards in player 1 hand before Embargo: 5, expected: 5 - PASS
+Number of cards in player 1 hand after Embargo: 5, expected: 4 - FAIL
+Number of coins after embargo play: 204, expected 6 - FAIL
+Number of embargo tokens after play: 0, expected 1 - FAIL
+Number of cards in player 2 hand: 5, expected: 5 - PASS
+
+iteration #8
+Number of cards in player 1 hand before Embargo: 5, expected: 5 - PASS
+Number of cards in player 1 hand after Embargo: 4, expected: 4 - PASS
+Number of coins after embargo play: 204, expected 6 - FAIL
+Number of embargo tokens after play: 1, expected 1 - PASS
+Number of cards in player 2 hand: 5, expected: 5 - PASS
+
+iteration #9
+Number of cards in player 1 hand before Embargo: 5, expected: 5 - PASS
+Number of cards in player 1 hand after Embargo: 4, expected: 4 - PASS
+Number of coins after embargo play: 204, expected 6 - FAIL
+Number of embargo tokens after play: 1, expected 1 - PASS
+Number of cards in player 2 hand: 5, expected: 5 - PASS
+
+iteration #10
+Number of cards in player 1 hand before Embargo: 5, expected: 5 - PASS
+Number of cards in player 1 hand after Embargo: 4, expected: 4 - PASS
+Number of coins after embargo play: 204, expected 6 - FAIL
+Number of embargo tokens after play: 1, expected 1 - PASS
+Number of cards in player 2 hand: 5, expected: 5 - PASS
+
+iteration #11
+Number of cards in player 1 hand before Embargo: 5, expected: 5 - PASS
+Number of cards in player 1 hand after Embargo: 4, expected: 4 - PASS
+Number of coins after embargo play: 204, expected 6 - FAIL
+Number of embargo tokens after play: 1, expected 1 - PASS
+Number of cards in player 2 hand: 5, expected: 5 - PASS
+
+iteration #12
+Number of cards in player 1 hand before Embargo: 5, expected: 5 - PASS
+Number of cards in player 1 hand after Embargo: 5, expected: 4 - FAIL
+Number of coins after embargo play: 204, expected 6 - FAIL
+Number of embargo tokens after play: 0, expected 1 - FAIL
+Number of cards in player 2 hand: 5, expected: 5 - PASS
+
+iteration #13
+Number of cards in player 1 hand before Embargo: 5, expected: 5 - PASS
+Number of cards in player 1 hand after Embargo: 5, expected: 4 - FAIL
+Number of coins after embargo play: 204, expected 6 - FAIL
+Number of embargo tokens after play: 0, expected 1 - FAIL
+Number of cards in player 2 hand: 5, expected: 5 - PASS
+
+iteration #14
+Number of cards in player 1 hand before Embargo: 5, expected: 5 - PASS
+Number of cards in player 1 hand after Embargo: 5, expected: 4 - FAIL
+Number of coins after embargo play: 204, expected 6 - FAIL
+Number of embargo tokens after play: 0, expected 1 - FAIL
+Number of cards in player 2 hand: 5, expected: 5 - PASS
+
+iteration #15
+Number of cards in player 1 hand before Embargo: 5, expected: 5 - PASS
+Number of cards in player 1 hand after Embargo: 5, expected: 4 - FAIL
+Number of coins after embargo play: 204, expected 6 - FAIL
+Number of embargo tokens after play: 0, expected 1 - FAIL
+Number of cards in player 2 hand: 5, expected: 5 - PASS
+
+iteration #16
+Number of cards in player 1 hand before Embargo: 5, expected: 5 - PASS
+Number of cards in player 1 hand after Embargo: 5, expected: 4 - FAIL
+Number of coins after embargo play: 204, expected 6 - FAIL
+Number of embargo tokens after play: 0, expected 1 - FAIL
+Number of cards in player 2 hand: 5, expected: 5 - PASS
+
+iteration #17
+Number of cards in player 1 hand before Embargo: 5, expected: 5 - PASS
+Number of cards in player 1 hand after Embargo: 5, expected: 4 - FAIL
+Number of coins after embargo play: 204, expected 6 - FAIL
+Number of embargo tokens after play: 0, expected 1 - FAIL
+Number of cards in player 2 hand: 5, expected: 5 - PASS
+
+iteration #18
+Number of cards in player 1 hand before Embargo: 5, expected: 5 - PASS
+Number of cards in player 1 hand after Embargo: 4, expected: 4 - PASS
+Number of coins after embargo play: 204, expected 6 - FAIL
+Number of embargo tokens after play: 1, expected 1 - PASS
+Number of cards in player 2 hand: 5, expected: 5 - PASS
+
+iteration #19
+Number of cards in player 1 hand before Embargo: 5, expected: 5 - PASS
+Number of cards in player 1 hand after Embargo: 5, expected: 4 - FAIL
+Number of coins after embargo play: 204, expected 6 - FAIL
+Number of embargo tokens after play: 0, expected 1 - FAIL
+Number of cards in player 2 hand: 5, expected: 5 - PASS
+
+iteration #20
+Number of cards in player 1 hand before Embargo: 5, expected: 5 - PASS
+Number of cards in player 1 hand after Embargo: 5, expected: 4 - FAIL
+Number of coins after embargo play: 204, expected 6 - FAIL
+Number of embargo tokens after play: 0, expected 1 - FAIL
+Number of cards in player 2 hand: 5, expected: 5 - PASS
+
+iteration #21
+Number of cards in player 1 hand before Embargo: 5, expected: 5 - PASS
+Number of cards in player 1 hand after Embargo: 4, expected: 4 - PASS
+Number of coins after embargo play: 204, expected 6 - FAIL
+Number of embargo tokens after play: 1, expected 1 - PASS
+Number of cards in player 2 hand: 5, expected: 5 - PASS
+
+iteration #22
+Number of cards in player 1 hand before Embargo: 5, expected: 5 - PASS
+Number of cards in player 1 hand after Embargo: 5, expected: 4 - FAIL
+Number of coins after embargo play: 204, expected 6 - FAIL
+Number of embargo tokens after play: 0, expected 1 - FAIL
+Number of cards in player 2 hand: 5, expected: 5 - PASS
+
+iteration #23
+Number of cards in player 1 hand before Embargo: 5, expected: 5 - PASS
+Number of cards in player 1 hand after Embargo: 5, expected: 4 - FAIL
+Number of coins after embargo play: 204, expected 6 - FAIL
+Number of embargo tokens after play: 0, expected 1 - FAIL
+Number of cards in player 2 hand: 5, expected: 5 - PASS
+
+iteration #24
+Number of cards in player 1 hand before Embargo: 5, expected: 5 - PASS
+Number of cards in player 1 hand after Embargo: 4, expected: 4 - PASS
+Number of coins after embargo play: 204, expected 6 - FAIL
+Number of embargo tokens after play: 1, expected 1 - PASS
+Number of cards in player 2 hand: 5, expected: 5 - PASS
+
+iteration #25
+Number of cards in player 1 hand before Embargo: 5, expected: 5 - PASS
+Number of cards in player 1 hand after Embargo: 4, expected: 4 - PASS
+Number of coins after embargo play: 204, expected 6 - FAIL
+Number of embargo tokens after play: 1, expected 1 - PASS
+Number of cards in player 2 hand: 5, expected: 5 - PASS
+
+iteration #26
+Number of cards in player 1 hand before Embargo: 5, expected: 5 - PASS
+Number of cards in player 1 hand after Embargo: 5, expected: 4 - FAIL
+Number of coins after embargo play: 204, expected 6 - FAIL
+Number of embargo tokens after play: 0, expected 1 - FAIL
+Number of cards in player 2 hand: 5, expected: 5 - PASS
+
+iteration #27
+Number of cards in player 1 hand before Embargo: 5, expected: 5 - PASS
+Number of cards in player 1 hand after Embargo: 5, expected: 4 - FAIL
+Number of coins after embargo play: 204, expected 6 - FAIL
+Number of embargo tokens after play: 0, expected 1 - FAIL
+Number of cards in player 2 hand: 5, expected: 5 - PASS
+
+iteration #28
+Number of cards in player 1 hand before Embargo: 5, expected: 5 - PASS
+Number of cards in player 1 hand after Embargo: 4, expected: 4 - PASS
+Number of coins after embargo play: 204, expected 6 - FAIL
+Number of embargo tokens after play: 1, expected 1 - PASS
+Number of cards in player 2 hand: 5, expected: 5 - PASS
+
+iteration #29
+Number of cards in player 1 hand before Embargo: 5, expected: 5 - PASS
+Number of cards in player 1 hand after Embargo: 4, expected: 4 - PASS
+Number of coins after embargo play: 204, expected 6 - FAIL
+Number of embargo tokens after play: 1, expected 1 - PASS
+Number of cards in player 2 hand: 5, expected: 5 - PASS
+
+iteration #30
+Number of cards in player 1 hand before Embargo: 5, expected: 5 - PASS
+Number of cards in player 1 hand after Embargo: 4, expected: 4 - PASS
+Number of coins after embargo play: 204, expected 6 - FAIL
+Number of embargo tokens after play: 1, expected 1 - PASS
+Number of cards in player 2 hand: 5, expected: 5 - PASS
+
+iteration #31
+Number of cards in player 1 hand before Embargo: 5, expected: 5 - PASS
+Number of cards in player 1 hand after Embargo: 4, expected: 4 - PASS
+Number of coins after embargo play: 204, expected 6 - FAIL
+Number of embargo tokens after play: 1, expected 1 - PASS
+Number of cards in player 2 hand: 5, expected: 5 - PASS
+
+iteration #32
+Number of cards in player 1 hand before Embargo: 5, expected: 5 - PASS
+Number of cards in player 1 hand after Embargo: 4, expected: 4 - PASS
+Number of coins after embargo play: 204, expected 6 - FAIL
+Number of embargo tokens after play: 1, expected 1 - PASS
+Number of cards in player 2 hand: 5, expected: 5 - PASS
+
+iteration #33
+Number of cards in player 1 hand before Embargo: 5, expected: 5 - PASS
+Number of cards in player 1 hand after Embargo: 4, expected: 4 - PASS
+Number of coins after embargo play: 204, expected 6 - FAIL
+Number of embargo tokens after play: 1, expected 1 - PASS
+Number of cards in player 2 hand: 5, expected: 5 - PASS
+
+iteration #34
+Number of cards in player 1 hand before Embargo: 5, expected: 5 - PASS
+Number of cards in player 1 hand after Embargo: 4, expected: 4 - PASS
+Number of coins after embargo play: 204, expected 6 - FAIL
+Number of embargo tokens after play: 1, expected 1 - PASS
+Number of cards in player 2 hand: 5, expected: 5 - PASS
+
+iteration #35
+Number of cards in player 1 hand before Embargo: 5, expected: 5 - PASS
+Number of cards in player 1 hand after Embargo: 5, expected: 4 - FAIL
+Number of coins after embargo play: 204, expected 6 - FAIL
+Number of embargo tokens after play: 0, expected 1 - FAIL
+Number of cards in player 2 hand: 5, expected: 5 - PASS
+
+iteration #36
+Number of cards in player 1 hand before Embargo: 5, expected: 5 - PASS
+Number of cards in player 1 hand after Embargo: 5, expected: 4 - FAIL
+Number of coins after embargo play: 204, expected 6 - FAIL
+Number of embargo tokens after play: 0, expected 1 - FAIL
+Number of cards in player 2 hand: 5, expected: 5 - PASS
+
+iteration #37
+Number of cards in player 1 hand before Embargo: 5, expected: 5 - PASS
+Number of cards in player 1 hand after Embargo: 4, expected: 4 - PASS
+Number of coins after embargo play: 204, expected 6 - FAIL
+Number of embargo tokens after play: 1, expected 1 - PASS
+Number of cards in player 2 hand: 5, expected: 5 - PASS
+
+iteration #38
+Number of cards in player 1 hand before Embargo: 5, expected: 5 - PASS
+Number of cards in player 1 hand after Embargo: 5, expected: 4 - FAIL
+Number of coins after embargo play: 204, expected 6 - FAIL
+Number of embargo tokens after play: 0, expected 1 - FAIL
+Number of cards in player 2 hand: 5, expected: 5 - PASS
+
+iteration #39
+Number of cards in player 1 hand before Embargo: 5, expected: 5 - PASS
+Number of cards in player 1 hand after Embargo: 5, expected: 4 - FAIL
+Number of coins after embargo play: 204, expected 6 - FAIL
+Number of embargo tokens after play: 0, expected 1 - FAIL
+Number of cards in player 2 hand: 5, expected: 5 - PASS
+
+iteration #40
+Number of cards in player 1 hand before Embargo: 5, expected: 5 - PASS
+Number of cards in player 1 hand after Embargo: 5, expected: 4 - FAIL
+Number of coins after embargo play: 204, expected 6 - FAIL
+Number of embargo tokens after play: 0, expected 1 - FAIL
+Number of cards in player 2 hand: 5, expected: 5 - PASS
+
+iteration #41
+Number of cards in player 1 hand before Embargo: 5, expected: 5 - PASS
+Number of cards in player 1 hand after Embargo: 4, expected: 4 - PASS
+Number of coins after embargo play: 204, expected 6 - FAIL
+Number of embargo tokens after play: 1, expected 1 - PASS
+Number of cards in player 2 hand: 5, expected: 5 - PASS
+
+iteration #42
+Number of cards in player 1 hand before Embargo: 5, expected: 5 - PASS
+Number of cards in player 1 hand after Embargo: 4, expected: 4 - PASS
+Number of coins after embargo play: 204, expected 6 - FAIL
+Number of embargo tokens after play: 1, expected 1 - PASS
+Number of cards in player 2 hand: 5, expected: 5 - PASS
+
+iteration #43
+Number of cards in player 1 hand before Embargo: 5, expected: 5 - PASS
+Number of cards in player 1 hand after Embargo: 4, expected: 4 - PASS
+Number of coins after embargo play: 204, expected 6 - FAIL
+Number of embargo tokens after play: 1, expected 1 - PASS
+Number of cards in player 2 hand: 5, expected: 5 - PASS
+
+iteration #44
+Number of cards in player 1 hand before Embargo: 5, expected: 5 - PASS
+Number of cards in player 1 hand after Embargo: 5, expected: 4 - FAIL
+Number of coins after embargo play: 204, expected 6 - FAIL
+Number of embargo tokens after play: 0, expected 1 - FAIL
+Number of cards in player 2 hand: 5, expected: 5 - PASS
+
+iteration #45
+Number of cards in player 1 hand before Embargo: 5, expected: 5 - PASS
+Number of cards in player 1 hand after Embargo: 4, expected: 4 - PASS
+Number of coins after embargo play: 204, expected 6 - FAIL
+Number of embargo tokens after play: 1, expected 1 - PASS
+Number of cards in player 2 hand: 5, expected: 5 - PASS
+
+iteration #46
+Number of cards in player 1 hand before Embargo: 5, expected: 5 - PASS
+Number of cards in player 1 hand after Embargo: 4, expected: 4 - PASS
+Number of coins after embargo play: 204, expected 6 - FAIL
+Number of embargo tokens after play: 1, expected 1 - PASS
+Number of cards in player 2 hand: 5, expected: 5 - PASS
+
+iteration #47
+Number of cards in player 1 hand before Embargo: 5, expected: 5 - PASS
+Number of cards in player 1 hand after Embargo: 4, expected: 4 - PASS
+Number of coins after embargo play: 204, expected 6 - FAIL
+Number of embargo tokens after play: 1, expected 1 - PASS
+Number of cards in player 2 hand: 5, expected: 5 - PASS
+
+iteration #48
+Number of cards in player 1 hand before Embargo: 5, expected: 5 - PASS
+Number of cards in player 1 hand after Embargo: 5, expected: 4 - FAIL
+Number of coins after embargo play: 204, expected 6 - FAIL
+Number of embargo tokens after play: 0, expected 1 - FAIL
+Number of cards in player 2 hand: 5, expected: 5 - PASS
+
+iteration #49
+Number of cards in player 1 hand before Embargo: 5, expected: 5 - PASS
+Number of cards in player 1 hand after Embargo: 4, expected: 4 - PASS
+Number of coins after embargo play: 204, expected 6 - FAIL
+Number of embargo tokens after play: 1, expected 1 - PASS
+Number of cards in player 2 hand: 5, expected: 5 - PASS
+
+iteration #50
+Number of cards in player 1 hand before Embargo: 5, expected: 5 - PASS
+Number of cards in player 1 hand after Embargo: 5, expected: 4 - FAIL
+Number of coins after embargo play: 204, expected 6 - FAIL
+Number of embargo tokens after play: 0, expected 1 - FAIL
+Number of cards in player 2 hand: 5, expected: 5 - PASS
+
+Function 'embargoCard'
+Lines executed:100.00% of 7
+Branches executed:100.00% of 2
+Taken at least once:100.00% of 2
+Calls executed:100.00% of 1
+
