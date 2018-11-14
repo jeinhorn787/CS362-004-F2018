@@ -4,8 +4,8 @@ Number of cards in player 1 hand before Smithy: 5, expected: 5 - PASS
 Number of cards in player 1 hand after Smithy: 4, expected: 7 - FAIL
 Number of smithy cards after play: 10, expected 9 - FAIL
 Number of cards in player 1 pile: 10, expected 2 - FAIL
-Number of Victory cards left: 24, expected 24 - PASS
-Number of Kingdom cards left: 25, expected 25 - PASS
+Number of Victory cards left: 36, expected 36 - PASS
+Number of Kingdom cards left: 36, expected 36 - PASS
 Number of cards in player 2 hand: 5, expected: 5 - PASS
 
 iteration #2
@@ -13,56 +13,11 @@ Number of cards in player 1 hand before Smithy: 5, expected: 5 - PASS
 Number of cards in player 1 hand after Smithy: 4, expected: 7 - FAIL
 Number of smithy cards after play: 10, expected 9 - FAIL
 Number of cards in player 1 pile: 10, expected 2 - FAIL
-Number of Victory cards left: 24, expected 24 - PASS
-Number of Kingdom cards left: 23, expected 23 - PASS
+Number of Victory cards left: 36, expected 36 - PASS
+Number of Kingdom cards left: 38, expected 38 - PASS
 Number of cards in player 2 hand: 5, expected: 5 - PASS
 
 iteration #3
-Number of cards in player 1 hand before Smithy: 5, expected: 5 - PASS
-Number of cards in player 1 hand after Smithy: 4, expected: 7 - FAIL
-Number of smithy cards after play: 10, expected 9 - FAIL
-Number of cards in player 1 pile: 10, expected 2 - FAIL
-Number of Victory cards left: 24, expected 24 - PASS
-Number of Kingdom cards left: 45, expected 45 - PASS
-Number of cards in player 2 hand: 5, expected: 5 - PASS
-
-iteration #4
-Number of cards in player 1 hand before Smithy: 5, expected: 5 - PASS
-Number of cards in player 1 hand after Smithy: 4, expected: 7 - FAIL
-Number of smithy cards after play: 10, expected 9 - FAIL
-Number of cards in player 1 pile: 10, expected 2 - FAIL
-Number of Victory cards left: 36, expected 36 - PASS
-Number of Kingdom cards left: 25, expected 25 - PASS
-Number of cards in player 2 hand: 5, expected: 5 - PASS
-
-iteration #5
-Number of cards in player 1 hand before Smithy: 5, expected: 5 - PASS
-Number of cards in player 1 hand after Smithy: 4, expected: 7 - FAIL
-Number of smithy cards after play: 10, expected 9 - FAIL
-Number of cards in player 1 pile: 10, expected 2 - FAIL
-Number of Victory cards left: 36, expected 36 - PASS
-Number of Kingdom cards left: 25, expected 25 - PASS
-Number of cards in player 2 hand: 5, expected: 5 - PASS
-
-iteration #6
-Number of cards in player 1 hand before Smithy: 5, expected: 5 - PASS
-Number of cards in player 1 hand after Smithy: 4, expected: 7 - FAIL
-Number of smithy cards after play: 10, expected 9 - FAIL
-Number of cards in player 1 pile: 10, expected 2 - FAIL
-Number of Victory cards left: 24, expected 24 - PASS
-Number of Kingdom cards left: 23, expected 23 - PASS
-Number of cards in player 2 hand: 5, expected: 5 - PASS
-
-iteration #7
-Number of cards in player 1 hand before Smithy: 5, expected: 5 - PASS
-Number of cards in player 1 hand after Smithy: 7, expected: 7 - PASS
-Number of smithy cards after play: 10, expected 9 - FAIL
-Number of cards in player 1 pile: 7, expected 2 - FAIL
-Number of Victory cards left: 24, expected 24 - PASS
-Number of Kingdom cards left: 25, expected 25 - PASS
-Number of cards in player 2 hand: 5, expected: 5 - PASS
-
-iteration #8
 Number of cards in player 1 hand before Smithy: 5, expected: 5 - PASS
 Number of cards in player 1 hand after Smithy: 4, expected: 7 - FAIL
 Number of smithy cards after play: 10, expected 9 - FAIL
@@ -71,16 +26,16 @@ Number of Victory cards left: 36, expected 36 - PASS
 Number of Kingdom cards left: 14, expected 14 - PASS
 Number of cards in player 2 hand: 5, expected: 5 - PASS
 
-iteration #9
+iteration #4
 Number of cards in player 1 hand before Smithy: 5, expected: 5 - PASS
 Number of cards in player 1 hand after Smithy: 7, expected: 7 - PASS
 Number of smithy cards after play: 10, expected 9 - FAIL
 Number of cards in player 1 pile: 7, expected 2 - FAIL
 Number of Victory cards left: 36, expected 36 - PASS
-Number of Kingdom cards left: 25, expected 25 - PASS
+Number of Kingdom cards left: 3, expected 3 - PASS
 Number of cards in player 2 hand: 5, expected: 5 - PASS
 
-iteration #10
+iteration #5
 Number of cards in player 1 hand before Smithy: 5, expected: 5 - PASS
 Number of cards in player 1 hand after Smithy: 4, expected: 7 - FAIL
 Number of smithy cards after play: 10, expected 9 - FAIL
@@ -89,13 +44,58 @@ Number of Victory cards left: 24, expected 24 - PASS
 Number of Kingdom cards left: 25, expected 25 - PASS
 Number of cards in player 2 hand: 5, expected: 5 - PASS
 
-iteration #11
+iteration #6
+Number of cards in player 1 hand before Smithy: 5, expected: 5 - PASS
+Number of cards in player 1 hand after Smithy: 4, expected: 7 - FAIL
+Number of smithy cards after play: 10, expected 9 - FAIL
+Number of cards in player 1 pile: 10, expected 2 - FAIL
+Number of Victory cards left: 36, expected 36 - PASS
+Number of Kingdom cards left: 25, expected 25 - PASS
+Number of cards in player 2 hand: 5, expected: 5 - PASS
+
+iteration #7
+Number of cards in player 1 hand before Smithy: 5, expected: 5 - PASS
+Number of cards in player 1 hand after Smithy: 4, expected: 7 - FAIL
+Number of smithy cards after play: 10, expected 9 - FAIL
+Number of cards in player 1 pile: 10, expected 2 - FAIL
+Number of Victory cards left: 36, expected 36 - PASS
+Number of Kingdom cards left: 25, expected 25 - PASS
+Number of cards in player 2 hand: 5, expected: 5 - PASS
+
+iteration #8
 Number of cards in player 1 hand before Smithy: 5, expected: 5 - PASS
 Number of cards in player 1 hand after Smithy: 7, expected: 7 - PASS
 Number of smithy cards after play: 10, expected 9 - FAIL
 Number of cards in player 1 pile: 7, expected 2 - FAIL
 Number of Victory cards left: 36, expected 36 - PASS
-Number of Kingdom cards left: 3, expected 3 - PASS
+Number of Kingdom cards left: 16, expected 16 - PASS
+Number of cards in player 2 hand: 5, expected: 5 - PASS
+
+iteration #9
+Number of cards in player 1 hand before Smithy: 5, expected: 5 - PASS
+Number of cards in player 1 hand after Smithy: 7, expected: 7 - PASS
+Number of smithy cards after play: 10, expected 9 - FAIL
+Number of cards in player 1 pile: 7, expected 2 - FAIL
+Number of Victory cards left: 36, expected 36 - PASS
+Number of Kingdom cards left: 27, expected 27 - PASS
+Number of cards in player 2 hand: 5, expected: 5 - PASS
+
+iteration #10
+Number of cards in player 1 hand before Smithy: 5, expected: 5 - PASS
+Number of cards in player 1 hand after Smithy: 4, expected: 7 - FAIL
+Number of smithy cards after play: 10, expected 9 - FAIL
+Number of cards in player 1 pile: 10, expected 2 - FAIL
+Number of Victory cards left: 36, expected 36 - PASS
+Number of Kingdom cards left: 14, expected 14 - PASS
+Number of cards in player 2 hand: 5, expected: 5 - PASS
+
+iteration #11
+Number of cards in player 1 hand before Smithy: 5, expected: 5 - PASS
+Number of cards in player 1 hand after Smithy: 4, expected: 7 - FAIL
+Number of smithy cards after play: 10, expected 9 - FAIL
+Number of cards in player 1 pile: 10, expected 2 - FAIL
+Number of Victory cards left: 36, expected 36 - PASS
+Number of Kingdom cards left: 38, expected 38 - PASS
 Number of cards in player 2 hand: 5, expected: 5 - PASS
 
 iteration #12
@@ -109,11 +109,11 @@ Number of cards in player 2 hand: 5, expected: 5 - PASS
 
 iteration #13
 Number of cards in player 1 hand before Smithy: 5, expected: 5 - PASS
-Number of cards in player 1 hand after Smithy: 7, expected: 7 - PASS
+Number of cards in player 1 hand after Smithy: 4, expected: 7 - FAIL
 Number of smithy cards after play: 10, expected 9 - FAIL
-Number of cards in player 1 pile: 7, expected 2 - FAIL
-Number of Victory cards left: 24, expected 24 - PASS
-Number of Kingdom cards left: 25, expected 25 - PASS
+Number of cards in player 1 pile: 10, expected 2 - FAIL
+Number of Victory cards left: 36, expected 36 - PASS
+Number of Kingdom cards left: 38, expected 38 - PASS
 Number of cards in player 2 hand: 5, expected: 5 - PASS
 
 iteration #14
@@ -122,7 +122,7 @@ Number of cards in player 1 hand after Smithy: 4, expected: 7 - FAIL
 Number of smithy cards after play: 10, expected 9 - FAIL
 Number of cards in player 1 pile: 10, expected 2 - FAIL
 Number of Victory cards left: 36, expected 36 - PASS
-Number of Kingdom cards left: 14, expected 14 - PASS
+Number of Kingdom cards left: 36, expected 36 - PASS
 Number of cards in player 2 hand: 5, expected: 5 - PASS
 
 iteration #15
@@ -136,47 +136,47 @@ Number of cards in player 2 hand: 5, expected: 5 - PASS
 
 iteration #16
 Number of cards in player 1 hand before Smithy: 5, expected: 5 - PASS
+Number of cards in player 1 hand after Smithy: 7, expected: 7 - PASS
+Number of smithy cards after play: 10, expected 9 - FAIL
+Number of cards in player 1 pile: 7, expected 2 - FAIL
+Number of Victory cards left: 24, expected 24 - PASS
+Number of Kingdom cards left: 25, expected 25 - PASS
+Number of cards in player 2 hand: 5, expected: 5 - PASS
+
+iteration #17
+Number of cards in player 1 hand before Smithy: 5, expected: 5 - PASS
+Number of cards in player 1 hand after Smithy: 4, expected: 7 - FAIL
+Number of smithy cards after play: 10, expected 9 - FAIL
+Number of cards in player 1 pile: 10, expected 2 - FAIL
+Number of Victory cards left: 36, expected 36 - PASS
+Number of Kingdom cards left: 47, expected 47 - PASS
+Number of cards in player 2 hand: 5, expected: 5 - PASS
+
+iteration #18
+Number of cards in player 1 hand before Smithy: 5, expected: 5 - PASS
+Number of cards in player 1 hand after Smithy: 4, expected: 7 - FAIL
+Number of smithy cards after play: 10, expected 9 - FAIL
+Number of cards in player 1 pile: 10, expected 2 - FAIL
+Number of Victory cards left: 36, expected 36 - PASS
+Number of Kingdom cards left: 25, expected 25 - PASS
+Number of cards in player 2 hand: 5, expected: 5 - PASS
+
+iteration #19
+Number of cards in player 1 hand before Smithy: 5, expected: 5 - PASS
+Number of cards in player 1 hand after Smithy: 7, expected: 7 - PASS
+Number of smithy cards after play: 10, expected 9 - FAIL
+Number of cards in player 1 pile: 7, expected 2 - FAIL
+Number of Victory cards left: 24, expected 24 - PASS
+Number of Kingdom cards left: 14, expected 14 - PASS
+Number of cards in player 2 hand: 5, expected: 5 - PASS
+
+iteration #20
+Number of cards in player 1 hand before Smithy: 5, expected: 5 - PASS
 Number of cards in player 1 hand after Smithy: 4, expected: 7 - FAIL
 Number of smithy cards after play: 10, expected 9 - FAIL
 Number of cards in player 1 pile: 10, expected 2 - FAIL
 Number of Victory cards left: 36, expected 36 - PASS
 Number of Kingdom cards left: 14, expected 14 - PASS
-Number of cards in player 2 hand: 5, expected: 5 - PASS
-
-iteration #17
-Number of cards in player 1 hand before Smithy: 5, expected: 5 - PASS
-Number of cards in player 1 hand after Smithy: 7, expected: 7 - PASS
-Number of smithy cards after play: 10, expected 9 - FAIL
-Number of cards in player 1 pile: 7, expected 2 - FAIL
-Number of Victory cards left: 36, expected 36 - PASS
-Number of Kingdom cards left: 36, expected 36 - PASS
-Number of cards in player 2 hand: 5, expected: 5 - PASS
-
-iteration #18
-Number of cards in player 1 hand before Smithy: 5, expected: 5 - PASS
-Number of cards in player 1 hand after Smithy: 7, expected: 7 - PASS
-Number of smithy cards after play: 10, expected 9 - FAIL
-Number of cards in player 1 pile: 7, expected 2 - FAIL
-Number of Victory cards left: 24, expected 24 - PASS
-Number of Kingdom cards left: 36, expected 36 - PASS
-Number of cards in player 2 hand: 5, expected: 5 - PASS
-
-iteration #19
-Number of cards in player 1 hand before Smithy: 5, expected: 5 - PASS
-Number of cards in player 1 hand after Smithy: 4, expected: 7 - FAIL
-Number of smithy cards after play: 10, expected 9 - FAIL
-Number of cards in player 1 pile: 10, expected 2 - FAIL
-Number of Victory cards left: 24, expected 24 - PASS
-Number of Kingdom cards left: 34, expected 34 - PASS
-Number of cards in player 2 hand: 5, expected: 5 - PASS
-
-iteration #20
-Number of cards in player 1 hand before Smithy: 5, expected: 5 - PASS
-Number of cards in player 1 hand after Smithy: 7, expected: 7 - PASS
-Number of smithy cards after play: 10, expected 9 - FAIL
-Number of cards in player 1 pile: 7, expected 2 - FAIL
-Number of Victory cards left: 24, expected 24 - PASS
-Number of Kingdom cards left: 36, expected 36 - PASS
 Number of cards in player 2 hand: 5, expected: 5 - PASS
 
 iteration #21
@@ -185,7 +185,7 @@ Number of cards in player 1 hand after Smithy: 4, expected: 7 - FAIL
 Number of smithy cards after play: 10, expected 9 - FAIL
 Number of cards in player 1 pile: 10, expected 2 - FAIL
 Number of Victory cards left: 36, expected 36 - PASS
-Number of Kingdom cards left: 36, expected 36 - PASS
+Number of Kingdom cards left: 38, expected 38 - PASS
 Number of cards in player 2 hand: 5, expected: 5 - PASS
 
 iteration #22
@@ -194,7 +194,7 @@ Number of cards in player 1 hand after Smithy: 4, expected: 7 - FAIL
 Number of smithy cards after play: 10, expected 9 - FAIL
 Number of cards in player 1 pile: 10, expected 2 - FAIL
 Number of Victory cards left: 36, expected 36 - PASS
-Number of Kingdom cards left: 36, expected 36 - PASS
+Number of Kingdom cards left: 25, expected 25 - PASS
 Number of cards in player 2 hand: 5, expected: 5 - PASS
 
 iteration #23
@@ -203,14 +203,14 @@ Number of cards in player 1 hand after Smithy: 7, expected: 7 - PASS
 Number of smithy cards after play: 10, expected 9 - FAIL
 Number of cards in player 1 pile: 7, expected 2 - FAIL
 Number of Victory cards left: 36, expected 36 - PASS
-Number of Kingdom cards left: 14, expected 14 - PASS
+Number of Kingdom cards left: 38, expected 38 - PASS
 Number of cards in player 2 hand: 5, expected: 5 - PASS
 
 iteration #24
 Number of cards in player 1 hand before Smithy: 5, expected: 5 - PASS
-Number of cards in player 1 hand after Smithy: 7, expected: 7 - PASS
+Number of cards in player 1 hand after Smithy: 4, expected: 7 - FAIL
 Number of smithy cards after play: 10, expected 9 - FAIL
-Number of cards in player 1 pile: 7, expected 2 - FAIL
+Number of cards in player 1 pile: 10, expected 2 - FAIL
 Number of Victory cards left: 24, expected 24 - PASS
 Number of Kingdom cards left: 36, expected 36 - PASS
 Number of cards in player 2 hand: 5, expected: 5 - PASS
@@ -220,17 +220,17 @@ Number of cards in player 1 hand before Smithy: 5, expected: 5 - PASS
 Number of cards in player 1 hand after Smithy: 4, expected: 7 - FAIL
 Number of smithy cards after play: 10, expected 9 - FAIL
 Number of cards in player 1 pile: 10, expected 2 - FAIL
-Number of Victory cards left: 36, expected 36 - PASS
+Number of Victory cards left: 24, expected 24 - PASS
 Number of Kingdom cards left: 25, expected 25 - PASS
 Number of cards in player 2 hand: 5, expected: 5 - PASS
 
 iteration #26
 Number of cards in player 1 hand before Smithy: 5, expected: 5 - PASS
-Number of cards in player 1 hand after Smithy: 4, expected: 7 - FAIL
+Number of cards in player 1 hand after Smithy: 7, expected: 7 - PASS
 Number of smithy cards after play: 10, expected 9 - FAIL
-Number of cards in player 1 pile: 10, expected 2 - FAIL
-Number of Victory cards left: 36, expected 36 - PASS
-Number of Kingdom cards left: 14, expected 14 - PASS
+Number of cards in player 1 pile: 7, expected 2 - FAIL
+Number of Victory cards left: 24, expected 24 - PASS
+Number of Kingdom cards left: 36, expected 36 - PASS
 Number of cards in player 2 hand: 5, expected: 5 - PASS
 
 iteration #27
@@ -239,7 +239,7 @@ Number of cards in player 1 hand after Smithy: 4, expected: 7 - FAIL
 Number of smithy cards after play: 10, expected 9 - FAIL
 Number of cards in player 1 pile: 10, expected 2 - FAIL
 Number of Victory cards left: 36, expected 36 - PASS
-Number of Kingdom cards left: 49, expected 49 - PASS
+Number of Kingdom cards left: 14, expected 14 - PASS
 Number of cards in player 2 hand: 5, expected: 5 - PASS
 
 iteration #28
@@ -248,7 +248,7 @@ Number of cards in player 1 hand after Smithy: 4, expected: 7 - FAIL
 Number of smithy cards after play: 10, expected 9 - FAIL
 Number of cards in player 1 pile: 10, expected 2 - FAIL
 Number of Victory cards left: 36, expected 36 - PASS
-Number of Kingdom cards left: 38, expected 38 - PASS
+Number of Kingdom cards left: 25, expected 25 - PASS
 Number of cards in player 2 hand: 5, expected: 5 - PASS
 
 iteration #29
@@ -256,8 +256,8 @@ Number of cards in player 1 hand before Smithy: 5, expected: 5 - PASS
 Number of cards in player 1 hand after Smithy: 4, expected: 7 - FAIL
 Number of smithy cards after play: 10, expected 9 - FAIL
 Number of cards in player 1 pile: 10, expected 2 - FAIL
-Number of Victory cards left: 24, expected 24 - PASS
-Number of Kingdom cards left: 25, expected 25 - PASS
+Number of Victory cards left: 36, expected 36 - PASS
+Number of Kingdom cards left: 14, expected 14 - PASS
 Number of cards in player 2 hand: 5, expected: 5 - PASS
 
 iteration #30
@@ -265,8 +265,8 @@ Number of cards in player 1 hand before Smithy: 5, expected: 5 - PASS
 Number of cards in player 1 hand after Smithy: 7, expected: 7 - PASS
 Number of smithy cards after play: 10, expected 9 - FAIL
 Number of cards in player 1 pile: 7, expected 2 - FAIL
-Number of Victory cards left: 36, expected 36 - PASS
-Number of Kingdom cards left: 36, expected 36 - PASS
+Number of Victory cards left: 24, expected 24 - PASS
+Number of Kingdom cards left: 34, expected 34 - PASS
 Number of cards in player 2 hand: 5, expected: 5 - PASS
 
 iteration #31
@@ -274,8 +274,8 @@ Number of cards in player 1 hand before Smithy: 5, expected: 5 - PASS
 Number of cards in player 1 hand after Smithy: 4, expected: 7 - FAIL
 Number of smithy cards after play: 10, expected 9 - FAIL
 Number of cards in player 1 pile: 10, expected 2 - FAIL
-Number of Victory cards left: 24, expected 24 - PASS
-Number of Kingdom cards left: 23, expected 23 - PASS
+Number of Victory cards left: 36, expected 36 - PASS
+Number of Kingdom cards left: 38, expected 38 - PASS
 Number of cards in player 2 hand: 5, expected: 5 - PASS
 
 iteration #32
@@ -283,8 +283,8 @@ Number of cards in player 1 hand before Smithy: 5, expected: 5 - PASS
 Number of cards in player 1 hand after Smithy: 4, expected: 7 - FAIL
 Number of smithy cards after play: 10, expected 9 - FAIL
 Number of cards in player 1 pile: 10, expected 2 - FAIL
-Number of Victory cards left: 36, expected 36 - PASS
-Number of Kingdom cards left: 38, expected 38 - PASS
+Number of Victory cards left: 24, expected 24 - PASS
+Number of Kingdom cards left: 34, expected 34 - PASS
 Number of cards in player 2 hand: 5, expected: 5 - PASS
 
 iteration #33
@@ -292,35 +292,35 @@ Number of cards in player 1 hand before Smithy: 5, expected: 5 - PASS
 Number of cards in player 1 hand after Smithy: 4, expected: 7 - FAIL
 Number of smithy cards after play: 10, expected 9 - FAIL
 Number of cards in player 1 pile: 10, expected 2 - FAIL
-Number of Victory cards left: 36, expected 36 - PASS
-Number of Kingdom cards left: 25, expected 25 - PASS
+Number of Victory cards left: 24, expected 24 - PASS
+Number of Kingdom cards left: 34, expected 34 - PASS
 Number of cards in player 2 hand: 5, expected: 5 - PASS
 
 iteration #34
 Number of cards in player 1 hand before Smithy: 5, expected: 5 - PASS
-Number of cards in player 1 hand after Smithy: 7, expected: 7 - PASS
+Number of cards in player 1 hand after Smithy: 4, expected: 7 - FAIL
 Number of smithy cards after play: 10, expected 9 - FAIL
-Number of cards in player 1 pile: 7, expected 2 - FAIL
-Number of Victory cards left: 24, expected 24 - PASS
-Number of Kingdom cards left: 23, expected 23 - PASS
+Number of cards in player 1 pile: 10, expected 2 - FAIL
+Number of Victory cards left: 36, expected 36 - PASS
+Number of Kingdom cards left: 14, expected 14 - PASS
 Number of cards in player 2 hand: 5, expected: 5 - PASS
 
 iteration #35
 Number of cards in player 1 hand before Smithy: 5, expected: 5 - PASS
-Number of cards in player 1 hand after Smithy: 7, expected: 7 - PASS
+Number of cards in player 1 hand after Smithy: 4, expected: 7 - FAIL
 Number of smithy cards after play: 10, expected 9 - FAIL
-Number of cards in player 1 pile: 7, expected 2 - FAIL
-Number of Victory cards left: 36, expected 36 - PASS
-Number of Kingdom cards left: 49, expected 49 - PASS
+Number of cards in player 1 pile: 10, expected 2 - FAIL
+Number of Victory cards left: 24, expected 24 - PASS
+Number of Kingdom cards left: 23, expected 23 - PASS
 Number of cards in player 2 hand: 5, expected: 5 - PASS
 
 iteration #36
 Number of cards in player 1 hand before Smithy: 5, expected: 5 - PASS
-Number of cards in player 1 hand after Smithy: 7, expected: 7 - PASS
+Number of cards in player 1 hand after Smithy: 4, expected: 7 - FAIL
 Number of smithy cards after play: 10, expected 9 - FAIL
-Number of cards in player 1 pile: 7, expected 2 - FAIL
+Number of cards in player 1 pile: 10, expected 2 - FAIL
 Number of Victory cards left: 24, expected 24 - PASS
-Number of Kingdom cards left: 56, expected 56 - PASS
+Number of Kingdom cards left: 14, expected 14 - PASS
 Number of cards in player 2 hand: 5, expected: 5 - PASS
 
 iteration #37
@@ -328,8 +328,8 @@ Number of cards in player 1 hand before Smithy: 5, expected: 5 - PASS
 Number of cards in player 1 hand after Smithy: 4, expected: 7 - FAIL
 Number of smithy cards after play: 10, expected 9 - FAIL
 Number of cards in player 1 pile: 10, expected 2 - FAIL
-Number of Victory cards left: 36, expected 36 - PASS
-Number of Kingdom cards left: 38, expected 38 - PASS
+Number of Victory cards left: 24, expected 24 - PASS
+Number of Kingdom cards left: 14, expected 14 - PASS
 Number of cards in player 2 hand: 5, expected: 5 - PASS
 
 iteration #38
@@ -338,7 +338,7 @@ Number of cards in player 1 hand after Smithy: 4, expected: 7 - FAIL
 Number of smithy cards after play: 10, expected 9 - FAIL
 Number of cards in player 1 pile: 10, expected 2 - FAIL
 Number of Victory cards left: 24, expected 24 - PASS
-Number of Kingdom cards left: 25, expected 25 - PASS
+Number of Kingdom cards left: 47, expected 47 - PASS
 Number of cards in player 2 hand: 5, expected: 5 - PASS
 
 iteration #39
@@ -347,7 +347,7 @@ Number of cards in player 1 hand after Smithy: 4, expected: 7 - FAIL
 Number of smithy cards after play: 10, expected 9 - FAIL
 Number of cards in player 1 pile: 10, expected 2 - FAIL
 Number of Victory cards left: 36, expected 36 - PASS
-Number of Kingdom cards left: 14, expected 14 - PASS
+Number of Kingdom cards left: 25, expected 25 - PASS
 Number of cards in player 2 hand: 5, expected: 5 - PASS
 
 iteration #40
@@ -356,7 +356,7 @@ Number of cards in player 1 hand after Smithy: 4, expected: 7 - FAIL
 Number of smithy cards after play: 10, expected 9 - FAIL
 Number of cards in player 1 pile: 10, expected 2 - FAIL
 Number of Victory cards left: 36, expected 36 - PASS
-Number of Kingdom cards left: 3, expected 3 - PASS
+Number of Kingdom cards left: 25, expected 25 - PASS
 Number of cards in player 2 hand: 5, expected: 5 - PASS
 
 iteration #41
@@ -365,7 +365,7 @@ Number of cards in player 1 hand after Smithy: 4, expected: 7 - FAIL
 Number of smithy cards after play: 10, expected 9 - FAIL
 Number of cards in player 1 pile: 10, expected 2 - FAIL
 Number of Victory cards left: 36, expected 36 - PASS
-Number of Kingdom cards left: 14, expected 14 - PASS
+Number of Kingdom cards left: 36, expected 36 - PASS
 Number of cards in player 2 hand: 5, expected: 5 - PASS
 
 iteration #42
@@ -374,73 +374,19 @@ Number of cards in player 1 hand after Smithy: 4, expected: 7 - FAIL
 Number of smithy cards after play: 10, expected 9 - FAIL
 Number of cards in player 1 pile: 10, expected 2 - FAIL
 Number of Victory cards left: 36, expected 36 - PASS
-Number of Kingdom cards left: 58, expected 58 - PASS
+Number of Kingdom cards left: 38, expected 38 - PASS
 Number of cards in player 2 hand: 5, expected: 5 - PASS
 
 iteration #43
 Number of cards in player 1 hand before Smithy: 5, expected: 5 - PASS
-Number of cards in player 1 hand after Smithy: 4, expected: 7 - FAIL
+Number of cards in player 1 hand after Smithy: 7, expected: 7 - PASS
 Number of smithy cards after play: 10, expected 9 - FAIL
-Number of cards in player 1 pile: 10, expected 2 - FAIL
-Number of Victory cards left: 24, expected 24 - PASS
-Number of Kingdom cards left: 45, expected 45 - PASS
+Number of cards in player 1 pile: 7, expected 2 - FAIL
+Number of Victory cards left: 36, expected 36 - PASS
+Number of Kingdom cards left: 27, expected 27 - PASS
 Number of cards in player 2 hand: 5, expected: 5 - PASS
 
 iteration #44
-Number of cards in player 1 hand before Smithy: 5, expected: 5 - PASS
-Number of cards in player 1 hand after Smithy: 4, expected: 7 - FAIL
-Number of smithy cards after play: 10, expected 9 - FAIL
-Number of cards in player 1 pile: 10, expected 2 - FAIL
-Number of Victory cards left: 24, expected 24 - PASS
-Number of Kingdom cards left: 25, expected 25 - PASS
-Number of cards in player 2 hand: 5, expected: 5 - PASS
-
-iteration #45
-Number of cards in player 1 hand before Smithy: 5, expected: 5 - PASS
-Number of cards in player 1 hand after Smithy: 4, expected: 7 - FAIL
-Number of smithy cards after play: 10, expected 9 - FAIL
-Number of cards in player 1 pile: 10, expected 2 - FAIL
-Number of Victory cards left: 36, expected 36 - PASS
-Number of Kingdom cards left: 25, expected 25 - PASS
-Number of cards in player 2 hand: 5, expected: 5 - PASS
-
-iteration #46
-Number of cards in player 1 hand before Smithy: 5, expected: 5 - PASS
-Number of cards in player 1 hand after Smithy: 4, expected: 7 - FAIL
-Number of smithy cards after play: 10, expected 9 - FAIL
-Number of cards in player 1 pile: 10, expected 2 - FAIL
-Number of Victory cards left: 24, expected 24 - PASS
-Number of Kingdom cards left: 23, expected 23 - PASS
-Number of cards in player 2 hand: 5, expected: 5 - PASS
-
-iteration #47
-Number of cards in player 1 hand before Smithy: 5, expected: 5 - PASS
-Number of cards in player 1 hand after Smithy: 7, expected: 7 - PASS
-Number of smithy cards after play: 10, expected 9 - FAIL
-Number of cards in player 1 pile: 7, expected 2 - FAIL
-Number of Victory cards left: 24, expected 24 - PASS
-Number of Kingdom cards left: 14, expected 14 - PASS
-Number of cards in player 2 hand: 5, expected: 5 - PASS
-
-iteration #48
-Number of cards in player 1 hand before Smithy: 5, expected: 5 - PASS
-Number of cards in player 1 hand after Smithy: 7, expected: 7 - PASS
-Number of smithy cards after play: 10, expected 9 - FAIL
-Number of cards in player 1 pile: 7, expected 2 - FAIL
-Number of Victory cards left: 36, expected 36 - PASS
-Number of Kingdom cards left: 49, expected 49 - PASS
-Number of cards in player 2 hand: 5, expected: 5 - PASS
-
-iteration #49
-Number of cards in player 1 hand before Smithy: 5, expected: 5 - PASS
-Number of cards in player 1 hand after Smithy: 4, expected: 7 - FAIL
-Number of smithy cards after play: 10, expected 9 - FAIL
-Number of cards in player 1 pile: 10, expected 2 - FAIL
-Number of Victory cards left: 24, expected 24 - PASS
-Number of Kingdom cards left: 56, expected 56 - PASS
-Number of cards in player 2 hand: 5, expected: 5 - PASS
-
-iteration #50
 Number of cards in player 1 hand before Smithy: 5, expected: 5 - PASS
 Number of cards in player 1 hand after Smithy: 4, expected: 7 - FAIL
 Number of smithy cards after play: 10, expected 9 - FAIL
@@ -449,9 +395,70 @@ Number of Victory cards left: 36, expected 36 - PASS
 Number of Kingdom cards left: 36, expected 36 - PASS
 Number of cards in player 2 hand: 5, expected: 5 - PASS
 
+iteration #45
+Number of cards in player 1 hand before Smithy: 5, expected: 5 - PASS
+Number of cards in player 1 hand after Smithy: 4, expected: 7 - FAIL
+Number of smithy cards after play: 10, expected 9 - FAIL
+Number of cards in player 1 pile: 10, expected 2 - FAIL
+Number of Victory cards left: 24, expected 24 - PASS
+Number of Kingdom cards left: 14, expected 14 - PASS
+Number of cards in player 2 hand: 5, expected: 5 - PASS
+
+iteration #46
+Number of cards in player 1 hand before Smithy: 5, expected: 5 - PASS
+Number of cards in player 1 hand after Smithy: 4, expected: 7 - FAIL
+Number of smithy cards after play: 10, expected 9 - FAIL
+Number of cards in player 1 pile: 10, expected 2 - FAIL
+Number of Victory cards left: 36, expected 36 - PASS
+Number of Kingdom cards left: 49, expected 49 - PASS
+Number of cards in player 2 hand: 5, expected: 5 - PASS
+
+iteration #47
+Number of cards in player 1 hand before Smithy: 5, expected: 5 - PASS
+Number of cards in player 1 hand after Smithy: 4, expected: 7 - FAIL
+Number of smithy cards after play: 10, expected 9 - FAIL
+Number of cards in player 1 pile: 10, expected 2 - FAIL
+Number of Victory cards left: 36, expected 36 - PASS
+Number of Kingdom cards left: 25, expected 25 - PASS
+Number of cards in player 2 hand: 5, expected: 5 - PASS
+
+iteration #48
+Number of cards in player 1 hand before Smithy: 5, expected: 5 - PASS
+Number of cards in player 1 hand after Smithy: 4, expected: 7 - FAIL
+Number of smithy cards after play: 10, expected 9 - FAIL
+Number of cards in player 1 pile: 10, expected 2 - FAIL
+Number of Victory cards left: 24, expected 24 - PASS
+Number of Kingdom cards left: 25, expected 25 - PASS
+Number of cards in player 2 hand: 5, expected: 5 - PASS
+
+iteration #49
+Number of cards in player 1 hand before Smithy: 5, expected: 5 - PASS
+Number of cards in player 1 hand after Smithy: 4, expected: 7 - FAIL
+Number of smithy cards after play: 10, expected 9 - FAIL
+Number of cards in player 1 pile: 10, expected 2 - FAIL
+Number of Victory cards left: 36, expected 36 - PASS
+Number of Kingdom cards left: 25, expected 25 - PASS
+Number of cards in player 2 hand: 5, expected: 5 - PASS
+
+iteration #50
+Number of cards in player 1 hand before Smithy: 5, expected: 5 - PASS
+Number of cards in player 1 hand after Smithy: 4, expected: 7 - FAIL
+Number of smithy cards after play: 10, expected 9 - FAIL
+Number of cards in player 1 pile: 10, expected 2 - FAIL
+Number of Victory cards left: 24, expected 24 - PASS
+Number of Kingdom cards left: 58, expected 58 - PASS
+Number of cards in player 2 hand: 5, expected: 5 - PASS
+
 Function 'smithyCard'
 Lines executed:100.00% of 5
 Branches executed:100.00% of 2
 Taken at least once:100.00% of 2
 Calls executed:100.00% of 2
+
+File 'dominion.c'
+Lines executed:38.39% of 560
+Branches executed:30.94% of 417
+Taken at least once:24.70% of 417
+Calls executed:27.08% of 96
+Creating 'dominion.c.gcov'
 
